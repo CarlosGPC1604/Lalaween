@@ -46,6 +46,10 @@
     .hero-button {
         padding: 10px 40px 10px 40px;
     }
+
+    .hero {
+        margin-top: 50px;
+    }
 }
 
 @media screen and (min-width: 992px) {
