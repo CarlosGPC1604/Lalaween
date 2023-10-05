@@ -16,7 +16,7 @@
   display: block;
   position: absolute;
   color: black;
-  background-color: white;
+  background-color: inherit;
 }
 
 .topnav #myLinks {
