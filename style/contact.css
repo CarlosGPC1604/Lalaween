@@ -21,6 +21,7 @@
 
 .contact-text {
     padding: 10px 25px;
+
     h2 {
         text-align: left;
     }
@@ -28,15 +29,14 @@
 
 .contact-mail {
     text-align: center;
-    font-size: 27px;
     padding: 50px 0px;
-    a {
-        color: white;
-        text-decoration: none;
-        &:hover {
-            color: #00cac4;
-        }
-    }
+}
+
+.contact-mail a {
+    text-align: center;
+    font-size: 27px;
+    color: white;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 992px) {
@@ -54,10 +54,13 @@
         width: 60%;
     }
 
-    .contact-mail a, a:hover, a:focus{
+    .contact-mail a,
+    a:hover,
+    a:focus {
         font-size: 40px;
         text-decoration: none;
         color: white;
+
         &:hover {
             color: #00cac4;
         }
