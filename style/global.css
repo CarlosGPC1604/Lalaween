@@ -4,7 +4,7 @@ body {
     background-color: #111111;
 }
 
-.col {
+.col, img {
     overflow: hidden;
 }
 
@@ -18,21 +18,18 @@ body {
     padding-right: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
+h1, h2, h3, h4, h5, h6, p {
     font-family: Poppins, sans-serif;
     color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
     margin-bottom: 0px;
     font-weight: lighter;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-size: 40px;
     margin-top: 18px;
 }
@@ -41,16 +38,10 @@ h3 {
     font-weight: bolder;
 }
 
-.bolder {
-    font-weight: bolder;
-}
-
 p {
     text-align: center;
-    font-family: Poppins, sans-serif;
     font-weight: 200;
     font-size: 16px;
-    color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -62,13 +53,9 @@ p {
 img {
     height: auto;
     width: 100%;
-    overflow: hidden;
-    backdrop-filter: blur(0px);
 }
 
-h1,
-h2,
-h3+p {
+h1, h2, h3+p {
     margin-top: 15px;
 }
 
@@ -76,12 +63,8 @@ p+p {
     margin-top: 8px;
 }
 
-@media screen and (min-width: 768px) {}
-
 @media screen and (min-width: 992px) {
-
-    h1,
-    h2 {
+    h1, h2 {
         font-size: 50px;
     }
 
@@ -91,11 +74,7 @@ p+p {
 }
 
 @media screen and (min-width: 1200px) {
-
-    h1,
-    h2 {
+    h1, h2 {
         font-size: 60px;
     }
 }
-
-@media screen and (min-width: 1400px) {}
