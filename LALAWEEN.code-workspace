@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../LALAWEEN"
+		},
+		{
+			"path": "../../lalaween2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lalaween2"
+	}
+}
