@@ -1,105 +1,408 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LalaWeen | Creative Team</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700;900&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style/global.css">
-  <link rel="stylesheet" href="style/navbar.css">
-  <link rel="stylesheet" href="style/hero.css">
-  <link rel="stylesheet" href="style/cards.css">
-  <link rel="stylesheet" href="style/slider.css">
-  <link rel="stylesheet" href="style/float-buttons.css">
-  <link rel="stylesheet" href="style/stars.css">
-  <link rel="stylesheet" href="style/map.css">
-  <link rel="stylesheet" href="style/contact.css">
-  <link rel="stylesheet" href="style/footer.css">
-  <link rel="icon" type="image/x-icon" href="media/Recurso 2.svg">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="script/burger-navbar.js"></script>
-  <script src="script/hero-text.js"></script>
-  <script src="script/slider.js"></script>
-  <script src="script/top-button.js"></script>
-</head>
-<div id="stars"></div>
-<div id="stars2"></div>
-<div id="stars3"></div>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LalaWeen | Creative Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/global.css">
+    <link rel="stylesheet" href="style/navbar.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/cards.css">
+    <link rel="stylesheet" href="style/slider.css">
+    <link rel="stylesheet" href="style/float-buttons.css">
+    <link rel="stylesheet" href="style/stars.css">
+    <link rel="stylesheet" href="style/map.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="icon" type="image/x-icon" href="media/Recurso 2.svg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <script src="script/burger-navbar.js"></script>
+    <script src="script/hero-text.js"></script>
+    <script src="script/slider.js"></script>
+    <script src="script/top-button.js"></script>
+  </head>
+  <div id="stars"></div>
+  <div id="stars2"></div>
+  <div id="stars3"></div>
 
-<body>
-  <!-- NAVBAR -->
-  <!-- SMALL-NAVBAR -->
-  <div class="topnav">
-    <div class="row">
-      <div class="mobile-nav-logo col-6">
-        <a class="logo" href="#">
-          <img class="navbar-logo" src="media/Recurso 2.svg" alt="Lalaween">
-          <p>Lalaween</p>
-        </a>
-      </div>
-      <div id="myLinks">
-        <div class="links-container">
-          <a href="#">Inicio</a>
-          <a href="#productos">Productos</a>
-          <a href="#servicios-s">Servicios</a>
-          <a href="#contacto">Contacto</a>
-        </div>
-      </div>
-      <div class="col-6 ">
-        <div class="icon-container">
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()" title="Burger menu icon">
-            <ii>
-              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" class="bi bi-list"
-                viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-              </svg>
-              </i>
+  <body>
+    <!-- NAVBAR -->
+    <!-- SMALL-NAVBAR -->
+    <div class="topnav">
+      <div class="row">
+        <div class="mobile-nav-logo col-6">
+          <a class="logo" href="#">
+            <img class="navbar-logo" src="media/Recurso 2.svg" alt="Lalaween">
+            <p>Lalaween</p>
           </a>
+        </div>
+        <div id="myLinks">
+          <div class="links-container">
+            <a href="#">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#servicios-s">Servicios</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+        <div class="col-6 ">
+          <div class="icon-container">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()" title="Burger menu icon">
+              <ii>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" class="bi bi-list"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                </i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- SMALL-NAVBAR -->
-  <!-- DESKTOP-NAVBAR -->
-  <div class="navbar-container">
-    <div class="row">
-      <div class="col-6">
-        <header class="header">
-          <nav>
-            <ul>
-              <li>
-                <a class="logo" href="https://www.lalaween.com/">
-                  <img class="navbar-logo" src="media/Recurso 2.svg" alt="Lalaween">
-                  <p>Lalaween</p>
-                </a>
-              </li>
-              <li>
-                <a href="">Inicio</a>
-              </li>
-              <li>
-                <a href="#productos">Productos</a>
-              </li>
-              <li>
-                <a href="#servicios-d">Servicios</a>
-              </li>
-              <li>
-                <a href="#contacto">Contacto</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+    <!-- SMALL-NAVBAR -->
+    <!-- DESKTOP-NAVBAR -->
+    <div class="navbar-container">
+      <div class="row">
+        <div class="col-6">
+          <header class="header">
+            <nav>
+              <ul>
+                <li>
+                  <a class="logo" href="https://www.lalaween.com/">
+                    <img class="navbar-logo" src="media/Recurso 2.svg" alt="Lalaween">
+                    <p>Lalaween</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="">Inicio</a>
+                </li>
+                <li>
+                  <a href="#productos">Productos</a>
+                </li>
+                <li>
+                  <a href="#servicios-d">Servicios</a>
+                </li>
+                <li>
+                  <a href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+        <div class="col-6 header-icons-container">
+          <div class="header-icons">
+            <a href="https://www.facebook.com/LalaWeen/" target="_blank">
+              <img src="media/facebook.svg" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/lala.ween/" target="_blank">
+              <img src="media/instagram.svg" alt="instagram">
+            </a>
+            <a href="https://www.tiktok.com/@lalaweencreativeteam" target="_blank">
+              <img src="media/tiktok.svg" alt="tiktok">
+            </a>
+            <a href="https://wa.me/3111035526?text=Me%20gustaría%20saber%20más%20de%20precios%20y%20servicios"
+              target="_blank">
+              <img src="media/whats-white.svg" alt="whatsapp">
+            </a>
+            <a href="mailto:CreativeTeam@LalaWeen.com">
+              <img src="media/correo.svg" alt="mail">
+            </a>
+          </div>
+        </div>
       </div>
-      <div class="col-6 header-icons-container">
-        <div class="header-icons">
+    </div>
+    <!-- DESKTOP-NAVBAR -->
+    <!-- NAVBAR -->
+    <!-- HERO -->
+    <div class="container hero container-sm container-md container-lg container-xl container-xxl hero-container p-5">
+      <div class="row">
+        <div class="col-12 col-sm col-md-6 col-lg col-xl col-xxl">
+          <div class="img-container hero-logo-container">
+            <img src="media/Recurso 2.svg" alt="logo">
+          </div>
+        </div>
+        <div class="col-12 col-sm col-md-6 col-lg col-xl col-xxl hero-text">
+          <div hero-text-content>
+            <h1>Impulsamos</h1>
+            <h1 class="typewrite" data-period="1000"
+              data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></h1>
+            <h1>conservando tu esencia</h1>
+            <a href="#servicios-d">
+              <button class="hero-button" type="button">Nuestros paquetes</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HERO -->
+    <!-- SLIDER-CONTAINER -->
+    <a name="productos"></a>
+    <div class="container container-sm container-md container-lg container-xl container-xxl">
+      <div class="row">
+        <div class="col-12 col-text col-sm-12 col-md-12 col-md-12 col-lg-6 col-xl col-xxl">
+          <DIV class="row">
+            <div class="col col-sm-12">
+              <div class="slider-tittle">
+                <h2>Mira nuestro</h2>
+                <h2 class="bolder">portafolio</h2>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 slider-text-container">
+              <div class="slider-text">
+                <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu
+                  negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
+              </div>
+            </div>
+          </DIV>
+        </div>
+        <!-- SLIDER -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl slider-col">
+          <div class="slider-container">
+            <section id="slider">
+              <input type="radio" name="slider" id="s1" checked>
+              <input type="radio" name="slider" id="s2">
+              <input type="radio" name="slider" id="s3">
+              <input type="radio" name="slider" id="s4">
+              <input type="radio" name="slider" id="s5">
+              <label for="s1" id="slide1">
+                <img src="media/slider/1.webp" alt="slider-content">
+              </label>
+              <label for="s2" id="slide2">
+                <img src="media/slider/2.webp" alt="slider-content">
+              </label>
+              <label for="s3" id="slide3">
+                <img src="media/slider/3.webp" alt="slider-content">
+              </label>
+              <label for="s4" id="slide4">
+                <img src="media/slider/4.webp" alt="slider-content">
+              </label>
+              <label for="s5" id="slide5">
+                <img src="media/slider/5.webp" alt="slider-content">
+              </label>
+            </section>
+          </div>
+        </div>
+        <!-- SLIDER -->
+      </div>
+    </div>
+    <!-- SLIDER-CONTAINER -->
+    <!-- SLIDER-SM -->
+    <a name="servicios-s"></a>
+    <div class="slider-sm-container container container-sm container-md container-lg container-xl container-xxl p-5">
+      <div class="slider-sm">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- CARD-1 -->
+              <div class="card-1 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+                <div class="card-content">
+                  <div class="card-text-container">
+                    <div class="card-text">
+                      <h3>MARKETING DIGITAL</h3>
+                      <p class="card-subtittle"> Tu negocio en contacto con el mundo.</p>
+                      <p> Creación de contenido y manejo de tus redes sociales.</p>
+                    </div>
+                  </div>
+                  <div class="card-img">
+                    <div class="img-container">
+                      <img src="media/cards/card-1.webp" alt="card-content">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD-1 -->
+            </div>
+            <div class="carousel-item">
+              <!-- CARD-2 -->
+              <div class="card-2 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+                <div class="card-content">
+                  <div class="card-text-container">
+                    <div class="card-text">
+                      <h3>DISEÑO GRAFICO</h3>
+                      <P class="card-subtittle"> Tu imagen corporativa importa.</P>
+                      <p class="typewrite" data-period="1000"
+                        data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></p>
+                      <P> Diseños atractivos y personalizados.</P>
+                    </div>
+                  </div>
+                  <div class="card-img">
+                    <div class="img-container">
+                      <img src="media/cards/card-2.webp" alt="card-content">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD-2 -->
+            </div>
+            <div class="carousel-item">
+              <!-- CARD-3 -->
+              <div class="card-3 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+                <div class="card-content">
+                  <div class="card-text-container">
+                    <div class="card-text">
+                      <h3>DISEÑO WEB </h3>
+                      <P class="card-subtittle"> Tu negocio al alcance de un click.</P>
+                      <P>Programación y diseño de tu sitio web a tu medida.</P>
+                    </div>
+                  </div>
+                  <div class="card-img">
+                    <div class="img-container">
+                      <img src="media/cards/card-3.webp" alt="card-content">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CARD-3 -->
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- SLIDER-SM -->
+    <a name="servicios-d"></a>
+    <div class="cards-container container container-sm container-md container-lg container-xl container-xxl p-5">
+      <div class="row">
+        <!-- CARD-1 -->
+        <div class="card-1 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+          <div class="card-content">
+            <div class="card-text-container">
+              <div class="card-text">
+                <h3>MARKETING DIGITAL</h3>
+                <p class="card-subtittle"> Tu negocio en contacto con el mundo. </p>
+                <p> Creación de contenido y manejo de tus redes sociales. </p>
+              </div>
+            </div>
+            <div class="card-img">
+              <div class="img-container">
+                <img src="media/cards/card-1.webp" alt="card-content">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD-1 -->
+        <!-- CARD-2 -->
+        <div class="card-2 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+          <div class="card-content">
+            <div class="card-text-container">
+              <div class="card-text">
+                <h3>DISEÑO GRAFICO</h3>
+                <P class="card-subtittle"> Tu imagen corporativa importa. </P>
+                <p class="typewrite" data-period="1000"
+                  data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></p>
+                <P>Diseños atractivos y personalizados.</P>
+              </div>
+            </div>
+            <div class="card-img">
+              <div class="img-container">
+                <img src="media/cards/card-2.webp" alt="card-content">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD-2 -->
+        <!-- CARD-3 -->
+        <div class="card-3 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
+          <div class="card-content">
+            <div class="card-text-container">
+              <div class="card-text">
+                <h3>DISEÑO WEB </h3>
+                <P class="card-subtittle"> Tu negocio al alcance de un click.</P>
+                <P>Programación y diseño de tu sitio web a tu medida.</P>
+              </div>
+            </div>
+            <div class="card-img">
+              <div class="img-container">
+                <img src="media/cards/card-3.webp" alt="card-content">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD-3 -->
+      </div>
+    </div>
+    <!-- CARDS-CONTAINER -->
+    <!-- MAP -->
+    <div class="container map-container container-sm container-md container-lg container-xl container-xxl p-5">
+      <div class="row">
+        <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle-small">
+          <div>
+            <h2>Aquí nos</h2>
+            <H2 class="bolder">encontramos</H2>
+          </div>
+        </div>
+        <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl iframe-container">
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1sen!2smx!4v1696361877267!5m2!1sen!2smx"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Ubicación de LalaWeen"></iframe>
+        </div>
+        <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
+          <div>
+            <h2>Aquí nos</h2>
+            <H2 class="encontramos">encontramos</H2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MAP -->
+    <!-- CONTACT -->
+    <a name="contacto"></a>
+    <div class="container-fluid background-fluid">
+      <div class="contact-content">
+        <div class="contact-text">
+          <h2>Seria un gusto</h2>
+          <h2 class="bolder">trabajar contigo</h2>
+        </div>
+        <div class="contact-mail">
+          <a href="mailto:creativeteam@lalaween.com">creativeteam@lalaween.com</a>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT -->
+    <!-- FOOTER -->
+    <div class="footer-container container-fluid">
+      <div class="footer container container-sm container md container-lg container-xl container-xxl p-5">
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#productos">Productos</a>
+            </li>
+            <li>
+              <a href="#servicios-d">Servicios</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-icons">
           <a href="https://www.facebook.com/LalaWeen/" target="_blank">
-            <img src="media/facebook.svg" alt="facebook">
+            <img src="media/facebook.svg" alt="facaebook">
           </a>
           <a href="https://www.instagram.com/lala.ween/" target="_blank">
             <img src="media/instagram.svg" alt="instagram">
@@ -111,331 +414,27 @@
             target="_blank">
             <img src="media/whats-white.svg" alt="whatsapp">
           </a>
-          <a href="mailto:CreativeTeam@LalaWeen.com">
+          <a href="mailto:creativeteam@lalaween.com">
             <img src="media/correo.svg" alt="mail">
           </a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!-- DESKTOP-NAVBAR -->
-  <!-- NAVBAR -->
-  <!-- HERO -->
-  <div class="container hero container-sm container-md container-lg container-xl container-xxl hero-container p-5">
-    <div class="row">
-      <div class="col-12 col-sm col-md-6 col-lg col-xl col-xxl">
-        <div class="img-container hero-logo-container">
-          <img src="media/Recurso 2.svg" alt="logo">
-        </div>
-      </div>
-      <div class="col-12 col-sm col-md-6 col-lg col-xl col-xxl hero-text">
-        <div hero-text-content>
-          <h1>Impulsamos</h1>
-          <h1 class="typewrite" data-period="1000"
-            data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></h1>
-          <h1>conservando tu esencia</h1>
-          <a href="#servicios-d">
-            <button class="hero-button" type="button">Nuestros paquetes</button>
-          </a>
+        <div class="footer-text">
+          <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu
+            negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
+          <p class="copyright">Copyright © 2023 Lalaween</p>
         </div>
       </div>
     </div>
-  </div>
-  <!-- HERO -->
-  <!-- SLIDER-CONTAINER -->
-  <a name="productos"></a>
-  <div class="container container-sm container-md container-lg container-xl container-xxl">
-    <div class="row">
-      <div class="col-12 col-text col-sm-12 col-md-12 col-md-12 col-lg-6 col-xl col-xxl">
-        <DIV class="row">
-          <div class="col col-sm-12">
-            <div class="slider-tittle">
-              <h2>Mira nuestro</h2>
-              <h2 class="bolder">portafolio</h2>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 slider-text-container">
-            <div class="slider-text">
-              <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu
-                negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
-            </div>
-          </div>
-        </DIV>
-      </div>
-      <!-- SLIDER -->
-      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl slider-col">
-        <div class="slider-container">
-          <section id="slider">
-            <input type="radio" name="slider" id="s1" checked>
-            <input type="radio" name="slider" id="s2">
-            <input type="radio" name="slider" id="s3">
-            <input type="radio" name="slider" id="s4">
-            <input type="radio" name="slider" id="s5">
-            <label for="s1" id="slide1">
-              <img src="media/slider/1.webp" alt="slider-content">
-            </label>
-            <label for="s2" id="slide2">
-              <img src="media/slider/2.webp" alt="slider-content">
-            </label>
-            <label for="s3" id="slide3">
-              <img src="media/slider/3.webp" alt="slider-content">
-            </label>
-            <label for="s4" id="slide4">
-              <img src="media/slider/4.webp" alt="slider-content">
-            </label>
-            <label for="s5" id="slide5">
-              <img src="media/slider/5.webp" alt="slider-content">
-            </label>
-          </section>
-        </div>
-      </div>
-      <!-- SLIDER -->
-    </div>
-  </div>
-  <!-- SLIDER-CONTAINER -->
-  <!-- SLIDER-SM -->
-  <a name="servicios-s"></a>
-  <div class="slider-sm-container container container-sm container-md container-lg container-xl container-xxl p-5">
-    <div class="slider-sm">
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <!-- CARD-1 -->
-            <div class="card-1 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-              <div class="card-content">
-                <div class="card-text-container">
-                  <div class="card-text">
-                    <h3>MARKETING DIGITAL</h3>
-                    <p class="card-subtittle"> Tu negocio en contacto con el mundo.</p>
-                    <p> Creación de contenido y manejo de tus redes sociales.</p>
-                  </div>
-                </div>
-                <div class="card-img">
-                  <div class="img-container">
-                    <img src="media/cards/card-1.webp" alt="card-content">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- CARD-1 -->
-          </div>
-          <div class="carousel-item">
-            <!-- CARD-2 -->
-            <div class="card-2 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-              <div class="card-content">
-                <div class="card-text-container">
-                  <div class="card-text">
-                    <h3>DISEÑO GRAFICO</h3>
-                    <P class="card-subtittle"> Tu imagen corporativa importa.</P>
-                    <p class="typewrite" data-period="1000"
-                      data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></p>
-                    <P> Diseños atractivos y personalizados.</P>
-                  </div>
-                </div>
-                <div class="card-img">
-                  <div class="img-container">
-                    <img src="media/cards/card-2.webp" alt="card-content">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- CARD-2 -->
-          </div>
-          <div class="carousel-item">
-            <!-- CARD-3 -->
-            <div class="card-3 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-              <div class="card-content">
-                <div class="card-text-container">
-                  <div class="card-text">
-                    <h3>DISEÑO WEB </h3>
-                    <P class="card-subtittle"> Tu negocio al alcance de un click.</P>
-                    <P>Programación y diseño de tu sitio web a tu medida.</P>
-                  </div>
-                </div>
-                <div class="card-img">
-                  <div class="img-container">
-                    <img src="media/cards/card-3.webp" alt="card-content">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- CARD-3 -->
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </div>
-  </div>
-  <!-- SLIDER-SM -->
-  <a name="servicios-d"></a>
-  <div class="cards-container container container-sm container-md container-lg container-xl container-xxl p-5">
-    <div class="row">
-      <!-- CARD-1 -->
-      <div class="card-1 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-        <div class="card-content">
-          <div class="card-text-container">
-            <div class="card-text">
-              <h3>MARKETING DIGITAL</h3>
-              <p class="card-subtittle"> Tu negocio en contacto con el mundo. </p>
-              <p> Creación de contenido y manejo de tus redes sociales. </p>
-            </div>
-          </div>
-          <div class="card-img">
-            <div class="img-container">
-              <img src="media/cards/card-1.webp" alt="card-content">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CARD-1 -->
-      <!-- CARD-2 -->
-      <div class="card-2 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-        <div class="card-content">
-          <div class="card-text-container">
-            <div class="card-text">
-              <h3>DISEÑO GRAFICO</h3>
-              <P class="card-subtittle"> Tu imagen corporativa importa. </P>
-              <p class="typewrite" data-period="1000"
-                data-type='["Tu negocio", "Tu marca", "Tus ideas", "Tu producto", "Tus servicios"]'></p>
-              <P>Diseños atractivos y personalizados.</P>
-            </div>
-          </div>
-          <div class="card-img">
-            <div class="img-container">
-              <img src="media/cards/card-2.webp" alt="card-content">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CARD-2 -->
-      <!-- CARD-3 -->
-      <div class="card-3 col-12 col-sm-12 col-md col-lg-4 col-xl col-xxl">
-        <div class="card-content">
-          <div class="card-text-container">
-            <div class="card-text">
-              <h3>DISEÑO WEB </h3>
-              <P class="card-subtittle"> Tu negocio al alcance de un click.</P>
-              <P>Programación y diseño de tu sitio web a tu medida.</P>
-            </div>
-          </div>
-          <div class="card-img">
-            <div class="img-container">
-              <img src="media/cards/card-3.webp" alt="card-content">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- CARD-3 -->
-    </div>
-  </div>
-  <!-- CARDS-CONTAINER -->
-  <!-- MAP -->
-  <div class="container map-container container-sm container-md container-lg container-xl container-xxl p-5">
-    <div class="row">
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle-small">
-        <div>
-          <h2>Aquí nos</h2>
-          <H2 class="bolder">encontramos</H2>
-        </div>
-      </div>
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl iframe-container">
-        <iframe class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1sen!2smx!4v1696361877267!5m2!1sen!2smx"
-          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" title="Ubicación de LalaWeen"></iframe>
-      </div>
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
-        <div>
-          <h2>Aquí nos</h2>
-          <H2 class="encontramos">encontramos</H2>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- MAP -->
-  <!-- CONTACT -->
-  <a name="contacto"></a>
-  <div class="container-fluid background-fluid">
-    <div class="contact-content">
-      <div class="contact-text">
-        <h2>Seria un gusto</h2>
-        <h2 class="bolder">trabajar contigo</h2>
-      </div>
-      <div class="contact-mail">
-        <a href="mailto:creativeteam@lalaween.com">creativeteam@lalaween.com</a>
-      </div>
-    </div>
-  </div>
-  <!-- CONTACT -->
-  <!-- FOOTER -->
-  <div class="footer-container container-fluid">
-    <div class="footer container container-sm container md container-lg container-xl container-xxl p-5">
-      <div class="footer-links">
-        <ul>
-          <li>
-            <a href="#">Inicio</a>
-          </li>
-          <li>
-            <a href="#productos">Productos</a>
-          </li>
-          <li>
-            <a href="#servicios-d">Servicios</a>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-icons">
-        <a href="https://www.facebook.com/LalaWeen/" target="_blank">
-          <img src="media/facebook.svg" alt="facaebook">
-        </a>
-        <a href="https://www.instagram.com/lala.ween/" target="_blank">
-          <img src="media/instagram.svg" alt="instagram">
-        </a>
-        <a href="https://www.tiktok.com/@lalaweencreativeteam" target="_blank">
-          <img src="media/tiktok.svg" alt="tiktok">
-        </a>
-        <a href="https://wa.me/3111035526?text=Me%20gustaría%20saber%20más%20de%20precios%20y%20servicios"
-          target="_blank">
-          <img src="media/whats-white.svg" alt="whatsapp">
-        </a>
-        <a href="mailto:creativeteam@lalaween.com">
-          <img src="media/correo.svg" alt="mail">
-        </a>
-      </div>
-      <div class="footer-text">
-        <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu
-          negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
-        <p class="copyright">Copyright © 2023 Lalaween</p>
-      </div>
-    </div>
-  </div>
-  <!-- FOOTER -->
-  <!-- FLOTANTES -->
-  <a href="https://wa.me/3111035526?text=Me%20gustaría%20saber%20más%20de%20precios%20y%20servicios" class="whatsapp"
-    target="_blank">
-    <img src="media/whats-white.svg" alt="Whatsapp">
-  </a>
-  <button class="top-button" type="button" onclick="scrollToTop()" id="back-to-up" title="To top of the page">
-    <i class="fa fa-arrow-up" aria-hidden="true">▲</i>
-  </button>
-  <!-- FLOTANTES -->
-  
-</body>
-
+    <!-- FOOTER -->
+    <!-- FLOTANTES -->
+    <a href="https://wa.me/3111035526?text=Me%20gustaría%20saber%20más%20de%20precios%20y%20servicios" class="whatsapp"
+      target="_blank">
+      <img src="media/whats-white.svg" alt="Whatsapp">
+    </a>
+    <button class="top-button" type="button" onclick="scrollToTop()" id="back-to-up" title="To top of the page">
+      <i class="fa fa-arrow-up" aria-hidden="true">▲</i>
+    </button>
+    <!-- FLOTANTES -->
+    
+  </body>
 </html>
