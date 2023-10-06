@@ -1,3 +1,13 @@
+.logo {
+    display: block;
+    width: fit-content;
+    align-items: center;
+}
+
+.logo p {
+    padding: 0px 5px 0px 5px;
+}
+
 .mobile-nav-logo .logo {
   display: flex;
   padding: 15px;
