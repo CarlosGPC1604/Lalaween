@@ -13,11 +13,9 @@ body {
     0% {
         background-position: 0% 50%;
     }
-
     50% {
         background-position: 100% 50%;
     }
-
     100% {
         background-position: 0% 50%;
     }
@@ -45,7 +43,7 @@ h4,
 h5,
 h6,
 p {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #ffffff;
 }
 
@@ -89,16 +87,15 @@ img {
 
 h1,
 h2,
-h3+p {
+h3 + p {
     margin-top: 15px;
 }
 
-p+p {
+p + p {
     margin-top: 8px;
 }
 
 @media screen and (min-width: 992px) {
-
     h1,
     h2 {
         font-size: 50px;
@@ -110,7 +107,6 @@ p+p {
 }
 
 @media screen and (min-width: 1200px) {
-
     h1,
     h2 {
         font-size: 60px;
