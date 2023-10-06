@@ -97,8 +97,12 @@ p+p {
     margin-top: 8px;
 }
 
-button{
-    transition: all 0.3s ease;
+* {
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
 }
 
 @media screen and (min-width: 992px) {
