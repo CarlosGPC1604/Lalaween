@@ -37,4 +37,5 @@
 .top-button:hover {
   background-color: #00a09b;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }

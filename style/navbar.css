@@ -21,6 +21,7 @@
   width: 100%;
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 .topnav a.icon {
@@ -62,6 +63,7 @@
   display: none;
   background: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   top: 0;
   width: 100%;
   overflow: hidden;
