@@ -102,10 +102,12 @@ nav ul li a {
   display: block;
   color: #fff;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
   color: #00cac4;
+  transition: all 0.3s ease;
 }
 
 .header-icons {
@@ -113,17 +115,20 @@ nav ul li a:hover {
   display: flex;
   justify-content: space-between;
   padding: 15px;
+  transition: all 0.3s ease;
 }
 
 .header-icons-container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  transition: all 0.3s ease;
 }
 
 .header-icons a img {
   width: 20px;
   filter: brightness(0) invert(1);
+  transition: all 0.3s ease;
 }
 
 @media screen and (min-width: 992px) {}
