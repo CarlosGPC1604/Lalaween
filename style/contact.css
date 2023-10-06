@@ -59,12 +59,11 @@
     .contact-mail a,
     a:hover,
     a:focus {
-        font-size: 40px;
         text-decoration: none;
         color: white;
-
         &:hover {
             color: #00cac4;
         }
     }
+}
 }
