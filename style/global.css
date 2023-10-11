@@ -121,3 +121,25 @@ p+p {
         font-size: 60px;
     }
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #00cac4 #101010;
+}
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+}
+
+  *::-webkit-scrollbar-track {
+    background: #101010;
+}
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #00cac4;
+    border-radius: 10px;
+    border: 3px none #ffffff;
+}
