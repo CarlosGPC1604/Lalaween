@@ -9,15 +9,19 @@
 }
 
 .card-text-container {
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 150px;
-  background: rgba(0, 160, 155, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(1.1px);
   -webkit-backdrop-filter: blur(1.1px);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 
@@ -37,7 +41,7 @@
   }
 
   .card-text {
-    padding: 5px;
+    padding: 10px 15px;
   }
 
   .card-text-container {
