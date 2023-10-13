@@ -9,6 +9,7 @@
 }
 
 .card-text-container {
+  padding: 12px;
   border-radius: 15px;
   display: flex;
   align-items: center;
