@@ -8,7 +8,7 @@
   <title>LalaWeen | Creative Team</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="style/global.css">
   <link rel="stylesheet" href="style/navbar.css">
   <link rel="stylesheet" href="style/hero.css">
@@ -28,12 +28,9 @@
   <script src="script/slider.js"></script>
   <script src="script/top-button.js"></script>
 </head>
+
 <body>
-  
-  <div id="stars"></div>
-  <div id="stars2"></div>
-  <div id="stars3"></div>
-  
+
   <!-- NAVBAR -->
   <!-- SMALL-NAVBAR -->
   <div class="topnav">
@@ -61,7 +58,7 @@
                 <path fill-rule="evenodd"
                   d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
               </svg>
-            </li>
+              </li>
           </a>
         </div>
       </div>
@@ -357,15 +354,23 @@
         </div>
       </div>
       <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl iframe-container">
-        <iframe class="map"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1sen!2smx!4v1696361877267!5m2!1sen!2smx"
-          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade" title="Ubicación de LalaWeen"></iframe>
+        <div id="map-container"></div>
+        <script>
+          var mapContainer = document.getElementById("map-container");
+          var iframe = document.createElement("iframe");
+          iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1en!2smx!4v1696361877267!5m2!1en!2smx";
+          iframe.style.border = "0";
+          iframe.allowfullscreen = true;
+          iframe.title = "Ubicación de LalaWeen";
+          iframe.loading = "lazy";
+          iframe.referrerpolicy = "no-referrer-when-downgrade";
+          mapContainer.appendChild(iframe);
+        </script>
       </div>
       <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
         <div>
           <h2>Aquí nos</h2>
-          <H2 class="encontramos">encontramos</H2>
+          <H2 class="bolder">encontramos</H2>
         </div>
       </div>
     </div>
@@ -436,7 +441,6 @@
     <i class="bi bi-caret-up-fill"></i>
   </button>
   <!-- FLOTANTES -->
-
 </body>
 
 </html>

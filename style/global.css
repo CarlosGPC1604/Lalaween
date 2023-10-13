@@ -5,11 +5,13 @@ body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
     animation: gradient 15s ease infinite;
 }
+
 @font-face {
     font-family: "poppins", sans-serif;
     src: url("/fonts/Poppins-Thin.ttf");
 
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -60,20 +62,18 @@ h6 {
     font-weight: lighter;
 }
 
-h1,
-h2 {
-    font-size: 40px;
+h1, h2 {
+    font-size: 33px;
     margin-top: 18px;
 }
-
 h3 {
     font-weight: bolder;
 }
 
 p {
     text-align: center;
-    font-weight:lighter;
-    font-size: 16px;
+    font-weight: lighter;
+    font-size: 12px;
     margin: 0;
     padding: 0;
 }

@@ -12,33 +12,37 @@
     display: none;
 }
 
-.encontramos {
+.bolder {
     font-weight: bolder;
 }
 
-.map {
+#map-container {
+    padding: 0;
+    overflow: hidden;
+}
+
+iframe {
     filter: grayscale(100%) invert(92%) contrast(83%);
+    padding: 0;
+    height: 300px;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {}
 
 @media screen and (min-width: 992px) {
     .map-tittle {
-        padding: 120px 0px 120px 0px;
         display: block;
-    }
-
-    iframe {
-        height: 80%;
-    }
-
-    .iframe-container {
         display: flex;
         align-items: center;
     }
 
     .map-tittle-small {
         display: none;
+    }
+
+    #map-container {
+        padding: 100px 0px 100px 0px;
     }
 }
 
