@@ -41,6 +41,12 @@
     text-decoration: none;
 }
 
+@media screen and (min-width: 768px) {
+    .contact-mail a {
+        font-size: 25px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .contact-text {
         padding: 10px 35px;
@@ -54,6 +60,10 @@
 
     .contact-content {
         width: 60%;
+    }
+
+    .contact-mail a {
+        font-size: 30px;
     }
 
     .contact-mail a,
