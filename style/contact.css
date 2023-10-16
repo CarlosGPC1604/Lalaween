@@ -37,8 +37,11 @@
 .contact-mail a {
     text-align: center;
     font-size: 20px;
-    color: white;
     text-decoration: none;
+}
+
+.contact-mail a :hover {
+    color: #00cac4;
 }
 
 @media screen and (min-width: 768px) {
@@ -65,16 +68,4 @@
     .contact-mail a {
         font-size: 30px;
     }
-
-    .contact-mail a,
-    a:hover,
-    a:focus {
-        text-decoration: none;
-        color: white;
-
-        &:hover {
-            color: #00cac4;
-        }
-    }
-}
 }
