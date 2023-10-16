@@ -349,8 +349,44 @@
     </div>
   </div>
   <!-- CARDS-CONTAINER -->
-  <!-- MAP -->
-  <div class="container map-container container-sm container-md container-lg container-xl container-xxl map-section">
+  <!-- REAL-MAP -->
+  <div
+    class="container map-container container-sm container-md container-lg container-xl container-xxl map-section real">
+    <div class="row">
+      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle-small">
+        <div>
+          <h2>Aquí nos</h2>
+          <H2 class="bolder">encontramos</H2>
+        </div>
+      </div>
+      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl iframe-container">
+        <div id="map-container"></div>
+        <script>
+          var mapContainer = document.getElementById("map-container");
+          var iframe = document.createElement("iframe");
+          iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1en!2smx!4v1696361877267!5m2!1en!2smx";
+          iframe.style.border = "0";
+          iframe.allowfullscreen = true;
+          iframe.title = "Ubicación de LalaWeen";
+          iframe.loading = "lazy";
+          iframe.referrerpolicy = "no-referrer-when-downgrade";
+          mapContainer.appendChild(iframe);
+        </script>
+        <p>Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.</p>
+        <a target="_blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">Ver en mapa</a>
+      </div>
+      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
+        <div>
+          <h2>Aquí nos</h2>
+          <H2 class="bolder">encontramos</H2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- REAL-MAP -->
+  <!-- FAKE-MAP -->
+  <div
+    class="container map-container container-sm container-md container-lg container-xl container-xxl map-section fake">
     <div class="row">
       <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle-small">
         <div>
@@ -372,19 +408,6 @@
           <p>Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.</p>
           <a target="_blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">Ver en mapa</a>
         </div>
-        <!-- 
-        <div id="map-container"></div>
-        <script>
-          var mapContainer = document.getElementById("map-container");
-          var iframe = document.createElement("iframe");
-          iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.7536073897313!2d-104.8651161239862!3d21.478182372189487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737cece0a2ad9%3A0x466ffc674c08577c!2sLalaween!5e0!3m2!1en!2smx!4v1696361877267!5m2!1en!2smx";
-          iframe.style.border = "0";
-          iframe.allowfullscreen = true;
-          iframe.title = "Ubicación de LalaWeen";
-          iframe.loading = "lazy";
-          iframe.referrerpolicy = "no-referrer-when-downgrade";
-          mapContainer.appendChild(iframe);
-        </script>-->
       </div>
       <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
         <div>
@@ -394,7 +417,7 @@
       </div>
     </div>
   </div>
-  <!-- MAP -->
+  <!-- FAKE-MAP -->
   <!-- CONTACT -->
   <a name="contacto"></a>
   <div class="container-fluid background-fluid">
