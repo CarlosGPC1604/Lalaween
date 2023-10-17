@@ -1,4 +1,3 @@
-
 window.fbAsyncInit = function () {
     FB.init({
         appId: 'TU_APP_ID', // Reemplaza 'TU_APP_ID' con el ID de tu App de Facebook
