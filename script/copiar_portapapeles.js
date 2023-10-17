@@ -1,4 +1,3 @@
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 window.fbAsyncInit = function () {
     FB.init({
