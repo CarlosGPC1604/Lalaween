@@ -1,10 +1,19 @@
-function copiarAlPortapapeles() {
-    var texto = "https://www.facebook.com/LalaWeen/";
-    var aux = document.createElement("input");
-    aux.setAttribute("value", texto);
-    document.body.appendChild(aux);
-    aux.select();
-    document.execCommand("copy");
-    document.body.removeChild(aux);
-    alert("Comparte este enlace en tus redes sociales para obtener un descuento: " + texto);
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+window.fbAsyncInit = function () {
+    FB.init({
+        appId: 'TU_APP_ID', // Reemplaza 'TU_APP_ID' con el ID de tu App de Facebook
+        xfbml: true,
+        version: 'v10.0' // Verifica la versión más reciente en la documentación de Facebook
+    });
+    FB.AppEvents.logPageView();
+};
+
+function shareOnFacebook() {
+    FB.ui({
+        method: 'share',
+        href: 'https://www.facebook.com/LalaWeen//',  // Reemplaza con la URL que quieres compartir
+    }, function (response) {
+        // Aquí puedes agregar lógica adicional después de que el usuario comparta o cancele
+    });
 }
