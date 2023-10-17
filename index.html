@@ -351,27 +351,17 @@
     </div>
   </div>
   <!-- CARDS-CONTAINER -->
-  <!-- MAP -->
-  <div class="container map-container container-sm container-md container-lg container-xl container-xxl">
+  <!-- REAL-MAP -->
+  <div
+    class="container map-container container-sm container-md container-lg container-xl container-xxl map-section real">
     <div class="row">
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle-small">
+      <div class="col col-sm-12 col-md-12 col-lg-6 col-xl col-xxl map-tittle-small">
         <div>
           <h2>Aquí nos</h2>
           <H2 class="bolder">encontramos</H2>
         </div>
       </div>
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl iframe-container">
-        <div class="map-container">
-          <div class="xs-map-img-container"> <a target="blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7"><img
-                src="media/xs-map-img.webp" alt="map"></a>
-          </div>
-          <div class="xl-map-img-container"> <a target="blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7"><img
-                src="media/xl-map-img.webp" alt="map"></a>
-          </div>
-          <p>Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.</p>
-          <a target="_blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">Ver en mapa</a>
-        </div>
-        <!-- 
+      <div class="col col-sm-12 col-md-12 col-lg-6 col-xl col-xxl iframe-container">
         <div id="map-container"></div>
         <script>
           var mapContainer = document.getElementById("map-container");
@@ -383,9 +373,11 @@
           iframe.loading = "lazy";
           iframe.referrerpolicy = "no-referrer-when-downgrade";
           mapContainer.appendChild(iframe);
-        </script>-->
+        </script>
+        <p>Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.</p>
+        <a target="_blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">Ver mapa</a>
       </div>
-      <div class="col-12 col-sm col-md col-lg-6 col-xl col-xxl map-tittle">
+      <div class="col col-sm-12 col-md-12 col-lg-6 col-xl col-xxl map-tittle">
         <div>
           <h2>Aquí nos</h2>
           <H2 class="bolder">encontramos</H2>
@@ -393,7 +385,41 @@
       </div>
     </div>
   </div>
-  <!-- MAP -->
+  <!-- REAL-MAP -->
+  <!-- FAKE-MAP -->
+  <div
+    class="container map-container container-sm container-md container-lg container-xl container-xxl map-section fake">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl map-tittle-small">
+        <div>
+          <h2>Aquí nos</h2>
+          <H2 class="bolder">encontramos</H2>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl iframe-container">
+        <div class="map-container">
+          <div class="xs-map-img-container"> <a target="blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7"><img
+                src="media/xs-map-img.webp" alt="map"></a>
+          </div>
+          <div class="xl-map-img-container">
+            <a target="blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">
+              <img src="media/xl-map-img.webp" alt="map" class="map-image">
+              <img src="media/pin-map-fill.svg" alt="hover-image" class="hover-image">
+            </a>
+          </div>
+          <p>Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.</p>
+          <a target="_blank" href="https://maps.app.goo.gl/qwFmJHHRY3W8afux7">Ver mapa</a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg col-xl col-xxl map-tittle">
+        <div>
+          <h2>Aquí nos</h2>
+          <H2 class="bolder">encontramos</H2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FAKE-MAP -->
   <!-- CONTACT -->
   <a name="contacto"></a>
   <div class="container-fluid background-fluid">
