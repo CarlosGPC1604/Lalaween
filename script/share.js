@@ -10,7 +10,7 @@ window.fbAsyncInit = function () {
 function shareOnFacebook() {
     FB.ui({
         method: 'share',
-        href: 'https://www.facebook.com/LalaWeen//',  // Reemplaza con la URL que quieres compartir
+        href: 'https://www.facebook.com/LalaWeen/',  // Reemplaza con la URL que quieres compartir
     }, function (response) {
         // Aquí puedes agregar lógica adicional después de que el usuario comparta o cancele
     });
