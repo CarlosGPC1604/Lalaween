@@ -7,7 +7,8 @@
 
 .promociones-content a {
     font-size: 25px;
-}.promociones-content div + a {
+}
+.promociones-content div + a {
     margin-top: 30px;
 }
 
