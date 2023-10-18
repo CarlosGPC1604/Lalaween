@@ -1,4 +1,23 @@
-.promociones-container{
+.promociones-container {
     padding-top: 60px;
     padding-bottom: 40px;
+    text-align: center;
+
 }
+
+.promociones-content a {
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.promociones-content h3+div {
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}
