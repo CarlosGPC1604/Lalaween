@@ -1,9 +1,8 @@
 body {
     min-width: 375px;
     margin: 0 auto;
-    height: 100%;
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
-    animation: gradient 15s ease infinite;
+    animation: gradient 1s ease infinite;
 }
 
 @font-face {
