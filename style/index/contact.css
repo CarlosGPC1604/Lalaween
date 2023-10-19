@@ -2,7 +2,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
-    background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 0, 2)), url("../media/team.webp");
+    background-image: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 0, 2)), url("../../media/team.webp");
     background-position: 50% 50%;
     overflow: hidden;
     box-sizing: content-box;
@@ -12,9 +12,9 @@
 }
 
 .contact-content {
+    background-image: url("../../media/team.webp");
     width: 80%;
     margin: 0 auto;
-    background-image: url("../media/team.webp");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(3px);
