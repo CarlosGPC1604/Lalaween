@@ -1,3 +1,7 @@
+.hero{
+    padding-top: 70px;
+    padding-bottom: 60;
+}
 .typewrite {
     font-weight: bolder;
 }
@@ -36,10 +40,6 @@
     .hero-button {
         padding: 10px 40px 10px 40px;
     }
-
-    .hero {
-        margin-top: 50px;
-    }
 }
 
 @media screen and (min-width: 992px) {
@@ -56,3 +56,4 @@
 }
 
 @media screen and (min-width: 1400px) {}
+
