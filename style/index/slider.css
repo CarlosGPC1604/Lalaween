@@ -99,7 +99,6 @@ input[type=radio]:checked {
 .slider-main-container {
     padding-top: 0;
     padding-bottom: 0;
-
 }
 .col-text {
     display: flex;
@@ -125,6 +124,9 @@ input[type=radio]:checked {
 }
 
 @media screen and (min-width: 768px) {
+    .slider-main-container {
+        padding-top: 50px;
+    }
     .tittle-col+.slider-col {
         margin-top: 0px;
     }
@@ -135,11 +137,16 @@ input[type=radio]:checked {
 }
 
 @media screen and (min-width: 992px) {
+    .slider-main-container {
+        padding-top: 0px;
+    }
     .col-text {
         padding: 0px;
     }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+}
 
 @media screen and (min-width: 1400px) {}
