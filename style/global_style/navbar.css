@@ -139,9 +139,7 @@ nav ul li a:hover {
   transition: all 0.3s ease;
 }
 
-@media screen and (min-width: 992px) {}
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
   .topnav {
     display: none;
   }
@@ -150,3 +148,5 @@ nav ul li a:hover {
     display: block;
   }
 }
+
+@media screen and (min-width: 1200px) {}

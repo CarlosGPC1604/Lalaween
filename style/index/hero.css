@@ -1,13 +1,15 @@
-.hero{
+.hero {
     padding-top: 70px;
     padding-bottom: 60;
 }
+
 .typewrite {
     font-weight: bolder;
 }
 
 .hero-logo-container {
     margin-top: 40px;
+    margin: 0 auto;
 }
 
 .hero-text {
@@ -40,12 +42,21 @@
     .hero-button {
         padding: 10px 40px 10px 40px;
     }
+
+    .hero-logo-container {
+        width: 440px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .hero-button {
         padding: 10px 60px 10px 60px;
     }
+
+    .hero-logo-container {
+        width: 100%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -53,7 +64,7 @@
         padding: 10px 90px 10px 90px;
         margin-top: 30px;
     }
+
 }
 
 @media screen and (min-width: 1400px) {}
-
