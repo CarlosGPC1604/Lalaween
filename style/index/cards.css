@@ -9,7 +9,6 @@
 }
 .card-text-container {
   padding: 12px;
-  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,10 +17,7 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(1.1px);
   -webkit-backdrop-filter: blur(1.1px);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -o-border-radius: 15px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .card-img .img-container img {
