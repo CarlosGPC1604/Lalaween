@@ -105,6 +105,13 @@ a:hover {
     color: #00cac4;
 }
 
+@media (max-width: 375px) {
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
 @media screen and (min-width: 576px) {
     .container {
         padding: 20px 50px 20px 50px;
