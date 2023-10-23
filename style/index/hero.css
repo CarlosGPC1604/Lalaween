@@ -55,6 +55,9 @@
     .hero-logo-container {
         width: 440px;
     }
+    .hero {
+        padding-top: 120px;
+    }
 }
 
 @media screen and (min-width: 992px) {
