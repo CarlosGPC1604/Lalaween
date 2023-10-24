@@ -27,6 +27,9 @@
 .cards-container {
   display: none;
 }
+.modal-header, .modal-body, .modal-footer, .modal-content{
+  background-color: #0b0b0b;
+}
 
 @media screen and (min-width: 768px) {}
 
