@@ -98,9 +98,9 @@ iframe {
 @media screen and (min-width: 1400px) {}
 
 .fake {
-    display: none;
+    display: block;
 }
 
 .real {
-    display: block;
+    display: none;
 }
