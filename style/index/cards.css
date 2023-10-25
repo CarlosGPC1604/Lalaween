@@ -7,6 +7,7 @@
 .card-content {
   border-radius: 15px;
 }
+
 .card-text-container {
   padding: 12px;
   display: flex;
@@ -22,12 +23,17 @@
 
 .card-img .img-container img {
   border-radius: 0px 0px 15px 15px;
+
 }
 
 .cards-container {
   display: none;
 }
-.modal-header, .modal-body, .modal-footer, .modal-content{
+
+.modal-header,
+.modal-body,
+.modal-footer,
+.modal-content {
   background-color: #0b0b0b;
 }
 
