@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Somos una empresa de diseño gráfico digital para todo público.">
   <title>LalaWeen | Creative Team</title>
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="preload" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet';" />
   <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" async></script>
   <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js" async></script>
   <link rel="icon" type="image/x-icon" href="media/Recurso 2.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="style/global_style/global.css">
-  <link rel="stylesheet" href="style/global_style/navbar.css">
-  <link rel="stylesheet" href="style/index/hero.css">
+  <link rel="preload" href="style/global_style/global.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet';" />
+  <link rel="preload" href="style/global_style/navbar.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet';" />
+  <link rel="preload" href="style/index/hero.css" type="text/css" as="style" onload="this.onload=null;this.rel='stylesheet';" />
   <link rel="stylesheet" href="style/index/cards.css">
   <link rel="stylesheet" href="style/index/slider.css">
   <link rel="stylesheet" href="style/global_style/float-buttons.css">
@@ -27,7 +27,7 @@
   <script src="script/slider.js" async></script>
   <script src="script/top-button.js" async></script>
   <script src="script/share.js" async></script>
-  <script src="script/src-data-modal-images.js"></script>
+  <script src="script/src-data-modal-images.js" defer></script>
 </head>
 
 <body>
@@ -515,7 +515,7 @@
   </div>
   <!-- SLIDER-CONTAINER -->
   <!-- REAL-MAP -->
-   <!--  <div
+  <!--  <div
     class="container map-main-container container-sm container-md container-lg container-xl container-xxl map-section real">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl col-xxl map-tittle-small">
@@ -548,7 +548,7 @@
       </div>
     </div>
   </div>
---> 
+-->
   <!-- FAKE-MAP -->
   <div
     class="container map-main-container container-sm container-md container-lg container-xl container-xxl map-section fake">
