@@ -1,0 +1,67 @@
+.promociones-content p {
+    text-align: center;
+}
+
+.answer {
+    font-size: 16px;
+}
+
+.paquete-tittle h2,
+p {
+    text-align: left;
+}
+
+.paquete-tittle p {
+    font-size: 16px;
+}
+
+.promo-desccription :nth-child(1) {
+    font-size: 18px;
+}
+
+.promo-desccription p {
+    text-align: justify;
+}
+
+.paquete-container ul li {
+    color: white;
+    font-size: 12px;
+}
+
+.precios p {
+    color: white;
+    text-align: center;
+}
+
+.precios :nth-child(2) {
+    text-decoration: line-through;
+}
+
+@media screen and (min-width:768px) {
+    .paquete-container ul li {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .paquete-container ul li {
+        font-size: 16px;
+    }
+
+    .answer {
+        font-size: 22px;
+    }
+
+    .promo-desccription :nth-child(1) {
+        font-size: 22px;
+    }
+
+    .paquete-tittle p {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (min-width:1200px) {}
+
+@media screen and (min-width:1400px) {}
