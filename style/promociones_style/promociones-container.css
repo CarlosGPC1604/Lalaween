@@ -36,7 +36,9 @@ p {
 .precios :nth-child(2) {
     text-decoration: line-through;
 }
-
+div + .precios{
+    margin-top: 50px;
+}
 @media screen and (min-width:768px) {
     .paquete-container ul li {
         font-size: 12px;
@@ -58,6 +60,11 @@ p {
 
     .paquete-tittle p {
         font-size: 22px;
+    }
+    .price-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
